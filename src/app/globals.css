@@ -5,6 +5,18 @@
   --foreground: #171717;
 }
 
+@theme {
+  --color-ppin: rgba(137, 126, 197, 0.72);
+  --color-darkpp72: rgba(81, 33, 143, 0.72);
+  --color-backgrlight:
+    to bottom,
+    #ffffff,
+    #eeeaf3 75%,
+    #d7c8ed 100%;
+  --color-grbutton: rgba(202, 218, 49, 0.55);
+  --color-xtext: rgba(0, 0, 0, 0.68);
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -12,15 +24,15 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
 }
