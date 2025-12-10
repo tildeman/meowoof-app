@@ -8,13 +8,23 @@
 @theme {
   --color-ppin: rgba(137, 126, 197, 0.72);
   --color-darkpp72: rgba(81, 33, 143, 0.72);
-  --color-backgrlight:
+  --color-grbutton: rgba(202, 218, 49, 0.55);
+  --color-xtext: rgba(0, 0, 0, 0.68);
+  --color-nen30: rgba(167, 167, 167, 0.3);
+  --gradient-backgrlight:
     to bottom,
     #ffffff,
     #eeeaf3 75%,
     #d7c8ed 100%;
-  --color-grbutton: rgba(202, 218, 49, 0.55);
-  --color-xtext: rgba(0, 0, 0, 0.68);
+  --gradient-strokeeff:
+    rgba(64, 64, 64, 0.5), 3%,
+    rgba(64, 64, 64, 0.35), 9%,
+    rgba(255, 255, 255, 0.5), 17%,
+    rgba(255, 255, 255, 0.5), 30%,
+    rgba(64, 64, 64, 0.35), 52%,
+    rgba(249, 249, 249, 1), 58%,
+    rgba(255, 255, 255, 0.5), 80%,
+    rgba(249, 249, 249, 0.5), 91%,
 }
 
 @theme inline {
@@ -35,4 +45,8 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+.streff {
+  border-image: conic-gradient(var(--gradient-strokeeff));
 }
