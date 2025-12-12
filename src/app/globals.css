@@ -13,6 +13,8 @@
   --color-xtext49: rgba(0, 0, 0, 0.49);
   --color-grey67: rgba(161, 161, 161, 0.73);
   --color-nen30: rgba(167, 167, 167, 0.3);
+  --color-shopee: rgb(239, 81, 35);
+  --color-textclicked: rgb(84, 31, 177);
   --gradient-backgrlight:
     to bottom,
     #ffffff,
