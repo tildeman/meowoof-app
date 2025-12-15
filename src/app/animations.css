@@ -1,0 +1,57 @@
+/* For effects that are hard to breeze over */
+
+.e1 {
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow:
+        inset 0px 7px 11px -4px #FFFFFF,
+        inset 0px -82px 68px -64px rgba(96, 68, 144, 0.3),
+        inset 0px 98px 100px -48px rgba(202, 172, 255, 0.3),
+        inset 0px 4px 18px rgba(154, 146, 210, 0.3);
+    filter: blur(19.7px);
+}
+
+.e1 svg {
+    position: absolute;
+}
+
+.e1 .vec1 {
+    transform: scale(calc(652 / 683));
+
+    --zero-x: -186px;
+    --zero-y: -69px;
+    left: calc(-0px + var(--zero-x));
+    top: calc(-0px + var(--zero-y));
+}
+
+.e1 .vec2 {
+    transform: scale(calc(652 / 683)) rotate(-66deg);
+
+    --zero-x: 8px;
+    --zero-y: -47px;
+    left: calc(321px + var(--zero-x));
+    top: calc(59px + var(--zero-y));
+}
+
+.component75 svg {
+    position: absolute;
+    filter: blur(27px);
+}
+
+.component75 .vec1 {
+    transform: scale(calc(424 / 683)) rotate(-4.75deg);
+
+    --zero-x: -130px;
+    --zero-y: -85px;
+    left: calc(-153px + var(--zero-x));
+    top: calc(-70px + var(--zero-y));
+}
+
+.component75 .vec2 {
+    opacity: 72%;
+    transform: scale(calc(300 / 498)) rotate(-156.17deg);
+
+    --zero-x: -63px;
+    --zero-y: -45px;
+    left: calc(421px + var(--zero-x));
+    top: calc(-237px + var(--zero-y));
+}
